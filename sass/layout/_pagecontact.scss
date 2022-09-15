@@ -1,0 +1,195 @@
+.page-contact-hero {
+  height: 300px;
+  display: grid;
+  place-items: center;
+  background-color: #000000;
+  .page-contact-hero-text {
+    color: #ffffff;
+    font-size: 48px;
+    font-weight: 600;
+  }
+}
+.page-contact-content {
+  .page-contact-inner {
+    max-width: 559px;
+    margin: 0 auto;
+    .contact-message {
+      margin: 80px 0;
+      line-height: 1.6;
+      color: #666666;
+      font-size: 14px;
+      font-weight: 600;
+    }
+    .timeline {
+      position: relative;
+      list-style-type: none;
+      &::before {
+        content: "";
+        background: #dddddd;
+        display: inline-block;
+        position: absolute;
+        left: 0;
+        width: 1px;
+        height: 100%;
+        z-index: 400;
+      }
+      .timeline-item {
+        margin: 50px 0;
+        padding-left: 26px;
+
+        &::before {
+          content: "";
+          background: #ffffff;
+          display: inline-block;
+          position: relative;
+          border-radius: 50%;
+          background-color: #000;
+          border: 4px solid #fff;
+          outline-style: solid;
+          left: -36px;
+          width: 18px;
+          aspect-ratio: 1;
+          z-index: 400;
+        }
+        .timeline-item-heading {
+          color: #222222;
+          font-size: 12px;
+          font-weight: 700;
+          text-transform: uppercase;
+          position: relative;
+          top: -17px;
+        }
+        .timeline-item-contact {
+          color: #222222;
+          font-size: 14px;
+          font-weight: 600;
+          margin-bottom: 20px;
+          display: inline-block;
+        }
+        .timeline-des {
+          color: #666666;
+          font-size: 14px;
+          font-weight: 400;
+          line-height: 1.8;
+        }
+        .timeline-social-link {
+          color: #222222;
+          font-size: 14px;
+          font-weight: 600;
+          display: inline-block;
+          margin-right: 4px;
+        }
+        .timeline-row {
+          display: flex;
+          justify-content: space-around;
+          gap: 72px;
+          .timeline-column {
+            padding: 0 24px;
+            .name-city {
+              color: #000000;
+              font-size: 14px;
+              font-weight: 700;
+              margin-bottom: 12px;
+            }
+            .location {
+              color: #666666;
+              font-size: 14px;
+              font-weight: 400;
+              line-height: 1.6;
+              margin-bottom: 12px;
+            }
+            .tel span {
+              color: #000000;
+              font-size: 16px;
+              font-weight: 700;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+.contact-us {
+  margin-top: 79px;
+  .contact-title {
+    color: #000000;
+    font-size: 48px;
+    font-weight: bold;
+    text-transform: capitalize;
+  }
+  .contact-subtitle {
+    color: #666666;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.6;
+    margin-bottom: 61px;
+    margin-top: 57px;
+  }
+  .form-contact {
+    .contact-form-field {
+      margin-bottom: 29px;
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
+      label {
+        color: #000000;
+        font-size: 14px;
+        font-weight: 700;
+      }
+      input {
+        border: 0;
+        outline: none;
+        padding: 13px 0;
+        border-bottom: 1px solid #eaeaea;
+        &::-webkit-input-placeholder {
+          color: #999999;
+          font-size: 14px;
+          font-weight: 500;
+        }
+      }
+      textarea {
+        outline: none;
+        border: 1px solid #eaeaea;
+        padding: 20px;
+        resize: none;
+      }
+    }
+    .btn-submit {
+      min-width: 180px;
+      height: 40px;
+      text-align: center;
+      border: 3px solid #222222;
+      background-color: #ffffff;
+      text-transform: uppercase;
+      cursor: pointer;
+      margin-bottom: 73px;
+      color: #000000;
+      font-size: 12px;
+      font-weight: 700;
+      transition: all 0.3s ease-out;
+      &:hover {
+        background-color: #000000;
+        color: #ffffff;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .page-contact-content {
+    .page-contact-inner {
+      .timeline {
+        .timeline-item {
+          .timeline-row {
+            flex-direction: column;
+          }
+        }
+      }
+      .contact-us {
+        .contact-title {
+          font-size: 32px;
+        }
+      }
+    }
+  }
+}

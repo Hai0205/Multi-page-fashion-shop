@@ -1,0 +1,16 @@
+.nav-tabs {
+  border-bottom: unset;
+  .nav-item {
+    margin: 0 4px -1px 4px;
+    .show .nav-link {
+      border-color: unset;
+      border: unset;
+    }
+  }
+  .nav-link {
+    border: unset;
+    .active {
+      border-color: unset;
+    }
+  }
+}

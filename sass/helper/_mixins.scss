@@ -1,0 +1,32 @@
+@mixin fontsHeader {
+  font-weight: bold;
+  font-family: Montserrat;
+  color: #000000;
+}
+
+@mixin colorVsStyle {
+  color: #000000;
+  font-weight: 650;
+}
+@mixin btnHover($bgc, $color) {
+  background-color: $bgc;
+  color: $color;
+}
+@mixin fontSizeTitle {
+  font-size: 23px;
+  font-weight: bold;
+  color: #000000;
+  font-family: Montserrat;
+}
+@mixin fontSizeP {
+  font-size: 14px;
+
+  color: #000000;
+  font-family: Montserrat;
+}
+@mixin float-right {
+  float: right !important;
+}
+@mixin reponsivebtnSub {
+  width: 400px;
+}

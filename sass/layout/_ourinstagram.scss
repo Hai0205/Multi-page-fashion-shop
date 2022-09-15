@@ -1,0 +1,22 @@
+.our-instagram {
+  text-align: center;
+  .instagram-heading {
+    @include fontSizeTitle;
+    padding: 80px 0 20px 0;
+  }
+  .instagram-sub-heading {
+    @include fontSizeP;
+  }
+  .our-instagram-list-slick {
+    display: flex;
+    padding: 57px 0;
+    .our-instagram-item {
+      width: 322px;
+      height: 322px;
+      .our-instagram-img {
+        width: 100%;
+        max-width: 100%;
+      }
+    }
+  }
+}

@@ -1,0 +1,101 @@
+.saleoff {
+  margin-bottom: 75px;
+}
+.saleoff-main {
+  display: flex;
+}
+.saleoff-column {
+  width: 100%;
+}
+.saleoff-column-left {
+  height: 100%;
+  position: relative;
+  .saleoff-content {
+    display: none;
+    position: absolute;
+    inset: 0;
+  }
+}
+.saleoff-column-right {
+  background-color: #000000;
+  color: #ffffff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+.saleoff-img {
+  max-width: 100%;
+  width: 100%;
+  height: 100%;
+}
+
+.saleoff-content {
+  width: 436px;
+  max-width: 100%;
+  text-align: center;
+}
+
+.saleoff-name {
+  color: #ffffff;
+  font-size: 24px;
+  font-weight: 700;
+}
+
+.saleoff-percent {
+  color: #ffcc00;
+  font-size: 70px;
+  font-weight: 700;
+  padding: 13px 0 34px 0;
+  line-height: 1.4;
+}
+
+.saleoff-link {
+  text-decoration: none;
+  border-color: #ffffff;
+  background-color: #000000;
+  padding: 14px 40px;
+  border-radius: unset;
+  color: #ffffff;
+  font-size: 12px;
+  font-weight: 700;
+  border-style: solid;
+  border-width: 2px;
+  color: #ffffff;
+  display: inline-block;
+  transition: all 0.5s;
+  &:hover {
+    background-color: #ffffff;
+    color: #000000;
+    text-decoration: none;
+  }
+}
+.saleoff-time-remaining {
+  display: flex;
+  justify-content: center;
+  gap: 0 10px;
+  padding-top: 74px;
+}
+
+.saleoff-time-box {
+  width: 60px;
+  height: 60px;
+  background-color: #ff3333;
+  color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.saleoff-date-num {
+  color: #ffffff;
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.saleoff-date-text {
+  color: #fff;
+  background-color: #ff3333;
+  font-size: 14px;
+  font-weight: 700;
+}

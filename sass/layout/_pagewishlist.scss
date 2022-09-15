@@ -1,0 +1,54 @@
+.wishlist-content {
+  .wishlist-heading {
+    text-align: center;
+    color: #000000;
+    font-size: 60px;
+    font-weight: bold;
+    padding: 100px 0;
+  }
+  .tbl-wishlist-list-product {
+    .btn-remove {
+      border: 0;
+      outline: 0;
+      background-color: transparent;
+      font-size: 24px;
+      cursor: pointer;
+    }
+    .wishlist-item-name {
+      color: #000000;
+      font-size: 14px;
+      font-weight: 700;
+    }
+    .wishlist-item-price {
+      color: #000000;
+      font-size: 16px;
+      font-weight: 700;
+    }
+    .wishlist-inventory--in-stock,
+    .wishlist-inventory--out-of-stock {
+      color: #474747;
+      background-color: #fff;
+    }
+   
+    .btn-action {
+      color: #ffffff;
+      font-size: 14px;
+      font-weight: 600;
+      outline: none;
+      border: none;
+      cursor: pointer;
+      border: 1px solid transparent;
+      background-color: #000000;
+      color: #ffffff;
+      text-transform: uppercase;
+      transition: all 0.3s ease-out;
+      min-width: 150px;
+      height: 40px;
+      &:hover {
+        background-color: #ffffff;
+        color: #000000;
+        border: 1px solid #000000;
+      }
+    }
+  }
+}

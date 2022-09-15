@@ -1,0 +1,32 @@
+body {
+  font-family: "Montserrat";
+  font-size: 16px;
+  max-width: 1920px;
+  margin: 0 auto;
+}
+.container {
+  max-width: 1200px;
+}
+.container-fluid {
+  max-width: 1519px;
+  margin: 0 auto;
+  padding: 0;
+}
+.mt-header-top {
+  margin-top: 80px;
+}
+.product-detail {
+  margin-top: 80px;
+}
+
+.colle {
+  margin-bottom: 80px;
+}
+.max-w-768 {
+  max-width: 768px;
+}
+.table td {
+  padding: 0.75rem;
+  vertical-align: middle;
+  border-top: 1px solid #dee2e6;
+}

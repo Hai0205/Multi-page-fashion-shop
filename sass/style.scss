@@ -1,0 +1,30 @@
+//base
+@import "./base/base";
+// helper
+@import "./helper/_mixins";
+@import "./helper/variables";
+//layout
+@import "./layout/view";
+@import "./layout/_header";
+@import "./layout/_banner";
+@import "./layout/_feature";
+@import "./layout/_trendingstyle";
+@import "./layout/_saleoff";
+@import "./layout/_newarrival";
+@import "./layout/_blog";
+@import "./layout/_ourinstagram";
+@import "./layout/_instagram";
+@import "./layout/_subscribe";
+@import "./layout/_footer";
+@import "./layout/_reponsive";
+@import "./layout/_collection";
+@import "./layout/_product";
+@import "./layout/_pageblog";
+@import "./layout/_pagecontact";
+@import "./layout/_singlepost";
+@import "./layout/_pagewishlist";
+@import "./layout/_shoppingcart";
+@import "./layout/_checkout";
+@import "./layout/_shopmen";
+@import "./layout/productstyle";
+@import "./layout/shopkid";

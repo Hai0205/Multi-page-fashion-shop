@@ -1,0 +1,599 @@
+@media screen and (max-width: 1300px) {
+  .banner {
+    .banner-content {
+      top: 20%;
+      .banner-content-btns {
+        margin-top: 10px;
+      }
+    }
+  }
+}
+@media screen and (max-width: 1200px) {
+  .header {
+    .header-top {
+      .navigation-header-menu {
+        .mega-menu {
+          .mega-menu-row {
+            grid-template-columns: repeat(3, 1fr);
+            .category-name {
+              font-size: 14px;
+            }
+            .navbar-sub {
+              .navbar-sub-item {
+                a {
+                  font-size: 12px;
+                  font-weight: 600;
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+  .banner {
+    .banner-content {
+      top: 20%;
+      .banner-content-btns {
+        margin-top: 10px;
+      }
+    }
+  }
+  .carousel-indicators {
+    display: none;
+  }
+  .blog {
+    background-size: contain;
+
+    .blog-thumb {
+      .blog-thumb-img {
+        width: 100%;
+        height: auto;
+      }
+
+      .blog-category {
+        width: 50px;
+        height: 50px;
+      }
+    }
+  }
+
+  .blog-info {
+    padding: 0 10px;
+  }
+  .blog-title {
+    font-size: 16px;
+  }
+  .instagram {
+    .instagram-contact {
+      margin-top: 10px;
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 15px;
+      .instagram-contact-item {
+        height: 60px;
+      }
+    }
+  }
+}
+@media screen and (max-width: 991px) {
+  .header {
+    .header-top {
+      padding-left: 10px;
+      padding-right: 10px;
+      .header-navbar {
+        gap: 0 15px;
+      }
+      .header-info {
+        gap: 0 10px;
+      }
+    }
+  }
+  .banner {
+    max-height: 350px;
+    &-content {
+      top: 80px;
+      &-title-first {
+        font-size: 19px;
+      }
+      &-title-second {
+        font-size: 45px;
+      }
+      &-btns {
+        margin-top: 10px;
+      }
+    }
+  }
+  .carousel-indicators {
+    display: none;
+  }
+  .feature {
+    &-main {
+      .feature-content {
+        width: 258px;
+        height: 100px;
+        padding: 15px 10px 5px 5px;
+        &-left {
+          top: 300px;
+          left: 0;
+          .feature-title {
+            font-size: 18px;
+          }
+        }
+        &-right {
+          padding: 15px 0 10px 32px;
+          .feature-title {
+            font-size: 18px;
+          }
+        }
+      }
+    }
+    &-img {
+      width: 100%;
+    }
+  }
+  .trending {
+    .owl-theme .owl-dots .owl-dots-span {
+      width: 35px;
+      height: 5px;
+    }
+    .owl-theme {
+      .owl-dots {
+        left: 37%;
+      }
+      .owl-nav {
+        left: 35%;
+      }
+    }
+  }
+  .saleoff-percent {
+    font-size: 40px;
+  }
+  .arrival {
+    .arrival-main {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 0 10px;
+    }
+  }
+  .blog {
+    background-size: contain;
+    .blog-thumb {
+      .blog-thumb-img {
+        width: 100%;
+        height: auto;
+      }
+
+      .blog-category {
+        width: 50px;
+        height: 50px;
+      }
+    }
+  }
+
+  .blog-info {
+    padding: 0 12px;
+  }
+  .instagram {
+    .instagram-contact {
+      margin-top: 10px;
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 15px;
+      .instagram-contact-item {
+        height: 60px;
+      }
+    }
+  }
+  .subscribe {
+    .subscribe-form {
+      padding: 20px 0;
+
+      .subscribe-input {
+        margin-bottom: 10px;
+      }
+
+      .btn-subscribe {
+        width: 400px;
+        margin-left: 215px;
+      }
+    }
+  }
+  .footer {
+    padding: 50px;
+  }
+}
+@media screen and (max-width: 767px) {
+  .header {
+    .header-top {
+      .toggle-menu {
+        display: block;
+      }
+      .header-logo {
+        display: flex;
+        position: absolute;
+        margin: 0 auto;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -120%);
+      }
+      .header-navbar {
+        display: none;
+      }
+    }
+  }
+  .banner {
+    .banner-content {
+      display: none;
+      .banner-content-btns {
+        display: none;
+      }
+    }
+  }
+  // .trending{
+  //  max-width: 767px;
+  //   .trending-column{
+  //     width: 350px;
+      
+  //   }
+  // }
+  .saleoff-content {
+    width: 100%;
+    .saleoff-percent {
+      font-size: 30px;
+    }
+    .saleoff-time-remaining {
+      padding-top: 30px;
+      .saleoff-time-box {
+        width: 45px;
+        height: 45px;
+      }
+    }
+  }
+  // .blog {
+  //   background-size: contain;
+  //   .blog-thumb {
+  //     .blog-thumb-img {
+  //       width: 100%;
+  //       height: auto;
+  //     }
+
+  //     .blog-category {
+  //       width: 50px;
+  //       height: 50px;
+  //     }
+  //   }
+  // }
+  .instagram {
+    margin-top: -110px;
+  }
+  .subscribe {
+    .subscribe-form {
+      display: flex;
+      flex-flow: column wrap;
+      align-items: center;
+      gap: 10px;
+      .subscribe-label {
+        display: none;
+      }
+
+      .subscribe-input {
+        width: 254px;
+        margin-left: 20px;
+      }
+
+      .btn-subscribe {
+        width: 400px;
+        margin-left: 0px;
+      }
+    }
+  }
+  .footer {
+    padding: 50px;
+    .footer-main {
+      display: grid;
+      grid-template-columns: repeat(1, 1fr);
+    }
+    .footer-bot {
+      .footer-bot-main {
+        flex-direction: column;
+        gap: 20px;
+      }
+    }
+  }
+  
+}
+@media screen and (max-width: 575px) {
+  .feature {
+    margin-top: -15px;
+    .feature-main {
+      grid-template-columns: 1fr;
+      .feature-column-left {
+        margin-bottom: -4px;
+        .feature-img {
+          width: 100%;
+         
+        }
+      }
+      .feature-content {
+        width: 90%;
+        &-left {
+          top: 450px;
+        }
+      }
+    }
+  }
+
+  .header {
+    .header-top {
+      .toggle-menu {
+        display: block;
+      }
+      .header-logo {
+        display: flex;
+
+        position: absolute;
+        margin: 0 auto;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -120%);
+      }
+      .header-navbar {
+        display: none;
+      }
+    }
+  }
+  .banner {
+    height: 250px;
+    .banner-img {
+      height: 15 0px;
+    }
+
+    .banner-content {
+      display: none;
+    }
+    .carousel-control-next-icon {
+      margin-top: -10px;
+    }
+    .carousel-control-prev-icon {
+      margin-top: -10px;
+    }
+  }
+
+  .saleoff {
+    .saleoff-main {
+      flex-direction: column-reverse;
+      .saleoff-column-right {
+        display: none;
+      }
+      .saleoff-column-left {
+        .saleoff-content {
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          flex-flow: column wrap;
+          background-color: rgba(0, 0, 0, 0.5);
+        }
+      }
+    }
+  }
+  .arrival {
+    margin-top: 160px;
+    .arrival-heading {
+      margin-bottom: 10px;
+    }
+    .arrival-main {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: -10px 10px;
+      .arrival-column {
+        margin-bottom: 10px;
+      }
+    }
+    .arrival-tabs {
+      margin-bottom: 15px;
+    }
+  }
+
+  .blog {
+    .blog-thumb {
+      .blog-thumb-img {
+        width: 100%;
+        height: auto;
+      }
+
+      .blog-category {
+        width: 50px;
+        height: 50px;
+      }
+    }
+  }
+
+  .blog-info {
+    padding: 0 12px;
+  }
+  .instagram {
+    .instagram-contact {
+      margin-top: 10px;
+      display: grid;
+      grid-template-columns: repeat(1, 1fr);
+      gap: 15px;
+      .instagram-contact-item {
+        height: 40px;
+      }
+    }
+  }
+  .subscribe {
+    .subscribe-form {
+      display: flex;
+      flex-flow: column wrap;
+      align-items: center;
+      gap: 10px;
+      .subscribe-label {
+        display: none;
+      }
+
+      .subscribe-input {
+        width: 254px;
+        margin-left: 20px;
+      }
+
+      .btn-subscribe {
+        margin-left: 0px;
+      }
+    }
+  }
+  .footer {
+    padding: 50px;
+    .footer-main {
+      display: grid;
+      grid-template-columns: repeat(1, 1fr);
+    }
+    .footer-bot {
+      .footer-bot-main {
+        flex-direction: column;
+        gap: 20px;
+      }
+    }
+  }
+}
+@media screen and (max-width: 480px) {
+  .header {
+    .header-top {
+      .toggle-menu {
+        display: block;
+      }
+      .header-logo {
+        display: inline-block;
+        left: 50%;
+      }
+      .header-navbar {
+        display: none;
+      }
+    }
+  }
+  .banner {
+    height: 250px;
+    .banner-img {
+      width: 110%;
+      height: 300px;
+    }
+    .banner-content {
+      display: none;
+    }
+    .carousel-control-next-icon {
+      margin-top: -60px;
+    }
+    .carousel-control-prev-icon {
+      margin-top: -60px;
+    }
+  }
+  .feature {
+    .feature-main {
+      grid-template-columns: 1fr;
+      .feature-column-left {
+        .feature-img {
+          width: 100%;
+          height: 400px;
+        }
+      }
+      .feature-content {
+        width: 90%;
+        &-left {
+          top: 300px;
+        }
+      }
+    }
+  }
+  .saleoff {
+    .saleoff-main {
+      flex-direction: column-reverse;
+      .saleoff-column-right {
+        // display: none;
+        top: 180px;
+        .saleoff-info {
+          .saleoff-name {
+            font-size: 20px;
+          }
+          .saleoff-percent {
+            font-size: 30px;
+          }
+        }
+      }
+      .saleoff-column-left {
+        .saleoff-content {
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          flex-flow: column wrap;
+          background-color: rgba(0, 0, 0, 0.5);
+        }
+      }
+    }
+  }
+  .arrival {
+    .arrival-main {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 0 10px;
+    }
+  }
+  .blog {
+    .blog-thumb {
+      .blog-thumb-img {
+        width: 100%;
+        height: auto;
+      }
+
+      .blog-category {
+        width: 50px;
+        height: 50px;
+      }
+    }
+  }
+  .instagram {
+    // margin-top: -200px;
+    .instagram-contact {
+      margin-top: 10px;
+      display: grid;
+      grid-template-columns: repeat(1, 1fr);
+      gap: 15px;
+      .instagram-contact-item {
+        height: 40px;
+      }
+    }
+  }
+  .subscribe {
+    .subscribe-form {
+      display: flex;
+      flex-flow: column wrap;
+      align-items: center;
+      gap: 10px;
+      .subscribe-label {
+        display: none;
+      }
+
+      .subscribe-input {
+        width: 200px;
+        margin-left: 0px;
+      }
+
+      .btn-subscribe {
+        margin-left: -20px;
+      }
+    }
+  }
+  .footer {
+    padding: 50px;
+    .footer-main {
+      display: block;
+      // grid-template-columns: repeat(1, 1fr);
+    }
+    .footer-bot {
+      .footer-bot-main {
+        flex-direction: column;
+        gap: 20px;
+      }
+    }
+  }
+}

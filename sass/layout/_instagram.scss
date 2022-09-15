@@ -1,0 +1,25 @@
+.instagram {
+  .instagram-contact {
+    padding-bottom: 60px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 30px;
+    .instagram-contact-item {
+      min-width: 270px;
+      height: 80px;
+      border: 1px solid #eaeaea;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      .instagram-contact-img {
+        margin-right: 24px;
+      }
+      .instagram-contact-text {
+        text-transform: uppercase;
+        color: #333333;
+        font-size: 12px;
+        font-weight: 600;
+      }
+    }
+  }
+}

@@ -1,0 +1,133 @@
+.trending {
+  margin-bottom: 80px;
+  font-family: $font;
+  .trending-heading {
+    @include fontSizeTitle;
+    text-align: center;
+    margin-bottom: 50px;
+  }
+  .slick-dots {
+    position: absolute;
+    top:0;
+    left: 50%;
+    transform: translate(-50%,-60%);
+    display: flex !important;
+    
+    justify-content: center;
+    gap: 0 15px;
+    
+    li {
+      position: relative;
+      display: inline-block;
+      cursor: pointer;
+    }
+    button {
+      font-size: 0;
+      width: 40px;
+      height: 5px;
+      background-color: #bbbbbb;
+      border: none;
+      outline: none;
+      border-radius: 33px;
+    }
+    .slick-active button {
+      background-color: #222;
+    }
+  }
+  .trending-column {
+    cursor: pointer;
+    padding: 0 10px;
+    
+    .trending-thumb {
+      position: relative;
+      overflow: hidden;
+      &:hover .trending-link {
+        bottom: 0;
+      }
+      .trending-image {
+        max-width: 100%;
+        width: 100%;
+      }
+      .trending-link {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        position: absolute;
+        bottom: -110px;
+        left: 0;
+        right: 0;
+        padding: 12px 10px;
+        background-color: #000000;
+        text-decoration: none;
+        transition: all 0.5s ease;
+        color: #ffffff;
+        font-size: 12px;
+        font-weight: 700;
+        &-text {
+          text-transform: uppercase;
+        }
+
+        .trending-image-icon {
+          max-width: 10%;
+          width: 10%;
+        }
+      }
+    }
+    .trending-info {
+      color: #000000;
+      font-size: 14px;
+      font-weight: 400;
+      .trending-name {
+        display: flex;
+        justify-content: space-between;
+        padding-top: 20px;
+        .trending-image-icon-heart {
+          max-width: 10%;
+          width: 10%;
+        }
+      }
+      .trending-price {
+        display: block;
+        padding-top: 10px;
+        font-weight: bold;
+      }
+    }
+  }
+}
+// .slick-arrow {
+//   position: absolute;
+//   top: 50%;
+//   transform: translateY(-50%);
+//   border: none;
+//   width: 50px;
+//   height: 50px;
+//   display: flex;
+//   justify-content: center;
+//   align-items: center;
+//   font-size: 30px;
+//   line-height: 1;
+//   z-index: 5;
+//   transition: all 0.2s linear;
+//   color: #000;
+//   background-color: transparent;
+//   cursor: pointer;
+//   &:focus{
+//     outline: none;
+//   }
+//   &:hover{
+//     background-color: transparent;
+//   }
+// }
+
+// ul li::marker {
+//   list-style-type: none;
+//   padding-left: 0px;
+//   color: #fff;
+//   display: none !important;
+// }
+// .slick-prev {
+//   left: -5%;
+// }
+// .slick-next {
+//   right: -5%;
+// }

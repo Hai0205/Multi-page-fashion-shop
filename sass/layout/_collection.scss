@@ -1,0 +1,60 @@
+.collection-heading {
+  color: #000000;
+  font-size: 30px;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 60px;
+}
+.collection-column {
+  padding: 0 10px;
+  cursor: pointer;
+}
+.collection-thumb {
+  position: relative;
+  overflow: hidden;
+  &:hover .collection-link {
+    bottom: 0;
+  }
+}
+.collection-image {
+  max-width: 100%;
+  width: 100%;
+}
+.collection-link {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: absolute;
+  bottom: -110px;
+  left: 0;
+  right: 0;
+  padding: 12px 10px;
+  background-color: #000000;
+  text-decoration: none;
+  transition: all 0.5s ease;
+  color: #ffffff;
+  font-size: 12px;
+  font-weight: bold;
+  &-text {
+    text-transform: uppercase;
+  }
+}
+.collection-image-icon {
+  max-width: 10%;
+  width: 10%;
+}
+.collection-info {
+  color: #000000;
+  font-size: 16px;
+  font-weight: 500;
+}
+.owl-theme .owl-dots .owl-dot span {
+  width: 35px;
+  height: 5px;
+}
+.owl-theme .owl-dots,
+.owl-theme .owl-nav {
+  position: absolute;
+  top: -50px;
+  left: 500px;
+}

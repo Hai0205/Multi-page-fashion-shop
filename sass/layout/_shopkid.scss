@@ -1,0 +1,812 @@
+.shop-kids-banner-top {
+  margin-bottom: 80px;
+  .shop-kids-banner-content-top {
+    position: relative;
+    .shop-kids-banner-title-top {
+      position: absolute;
+      right: 20%;
+      top: 50%;
+      transform: translateY(-50%);
+      width: 100%;
+      height: auto;
+      max-width: 265px;
+      max-height: auto;
+      text-align: right;
+     
+      h1 {
+        font-size: 60px;
+        font-weight: 700;
+        color: #fff;
+        margin-bottom: 40px;
+      }
+      p {
+        font-size: 14px;
+        color: #fff;
+        line-height: calc(24 / 14);
+      }
+    }
+  }
+}
+.shop-kids-list-content {
+  margin-bottom: 143px;
+  .sidebar-filter-top {
+    .icon-angle-down {
+      i {
+        transition: all 0.3s ease-out;
+      }
+      &.active  i {
+       // transform: rotate(-450deg);
+      }
+      
+    }
+   
+  }
+  .sidebar-filter-categories {
+    margin-top: 20px;
+    .sidebar-filter-categoies-item {
+      display: flex;
+      margin-bottom: 10px;
+      label{
+        font-size: 13px;
+        color: #222;
+        font-weight: 600;
+      }
+      span{
+        font-size: 13px;
+        color: #999;
+        font-weight: 600;
+      }
+      .inp-check {
+        display: none;
+        &:checked ~ .sidebar-filter-categories-text{
+          .icon-check-active {
+            display: block;
+            margin-right: 6px;
+            color: #ff3333;
+          }
+        }
+      }
+      .sidebar-filter-categories-text {
+        display: flex;
+        cursor: pointer;
+        user-select: none;
+        .icon-check-active {
+          display: none;
+        }
+      }
+    }
+    
+  }
+  
+  .sidebar-filter {
+     border: 1px solid #999;
+
+    max-width: 250px;
+    .sidebar-filter-column-categories {
+      border-bottom: 1px solid #999;
+      cursor: pointer;
+      padding: 20px;
+
+      .sidebar-filter-top {
+        display: flex;
+        justify-content: space-between;
+
+        h3 {
+          font-size: 14px;
+          font-weight: 700;
+          color: #000;
+          text-transform: uppercase;
+          margin-bottom: 29px;
+        }
+      }
+      .kid-products-list-group-item {
+        font-size: 13px;
+        line-height: calc(24 / 13);
+        color: #222;
+        font-weight: 600;
+        span {
+          color: #999;
+        }
+      }
+    }
+    .sidebar-filter-column--color {
+      border-bottom: 1px solid #999;
+      cursor: pointer;
+      padding: 20px;
+      .sidebar-filter-top{
+        .icon-angle-down {
+          i {
+            transition: all 0.3s ease-out;
+          }
+          &.active  i {
+            transform: rotate(-450deg);
+          }
+          
+        }
+      }
+
+      .rounded {
+        width: 21px;
+        height: 21px;
+        border-radius: 50% !important;
+        border: 1px solid #e5e5e5;
+        padding: 0 1px 0 2px;
+      }
+      .label-checkbox {
+        display: block;
+        position: relative;
+        padding-left: 25px;
+        cursor: pointer;
+        width: 100px;
+        input[type="checkbox"]:checked ~ .checkmark:after {
+          display: block;
+        }
+        .checkmark {
+          height: 15px;
+          width: 15px;
+          border-radius: 50%;
+          position: absolute;
+          top: 10%;
+          left: 0;
+          &:after {
+            content: "";
+            display: none;
+            width: 5px;
+            height: 8px;
+            border: solid #fff;
+            border-width: 0 2px 2px 0;
+            -webkit-transform: rotate(45deg);
+            transform: rotate(45deg);
+            position: absolute;
+            top: 2px;
+            left: 5px;
+          }
+        }
+        &:hover {
+          .checkmark {
+            opacity: 0.5;
+          }
+        }
+        #green {
+          background-color: #3cb878;
+        }
+        #black {
+          background-color: #000;
+        }
+        #blue {
+          background-color: #0054a6;
+        }
+        #violet {
+          background-color: #8560a8;
+        }
+        #red {
+          background-color: #ed1c24;
+        }
+        #yellow {
+          background-color: #fbaf5d;
+        }
+        #brown {
+          background-color: #a3620a;
+        }
+      }
+      .sidebar-filter-top {
+        display: flex;
+        justify-content: space-between;
+
+        h3 {
+          font-size: 14px;
+          font-weight: 700;
+          color: #000;
+          text-transform: uppercase;
+          margin-bottom: 29px;
+        }
+      }
+      .kid-products-list-group-item {
+        font-size: 13px;
+        line-height: calc(24 / 13);
+        color: #222;
+        font-weight: 600;
+        span {
+          color: #999;
+        }
+      }
+      input[type="checkbox"] {
+        visibility: hidden;
+        position: absolute;
+        opacity: 0;
+        height: 0;
+        width: 0;
+      }
+    }
+    .sidebar-filter-column--size {
+      border-bottom: 1px solid #999;
+      cursor: pointer;
+      padding: 20px;
+      .sidebar-filter-top {
+        display: flex;
+        justify-content: space-between;
+
+        h3 {
+          font-size: 14px;
+          font-weight: 700;
+          color: #000;
+          text-transform: uppercase;
+          margin-bottom: 29px;
+        }
+      }
+      .kid-products-list-group-item {
+        font-size: 13px;
+        line-height: calc(24 / 13);
+        color: #222;
+        font-weight: 600;
+        span {
+          color: #999;
+        }
+      }
+      input[type="checkbox"] {
+        visibility: hidden;
+        position: absolute;
+        opacity: 0;
+        height: 0;
+        width: 0;
+      }
+      .list-size {
+        .label-checkbox {
+          display: block;
+          position: relative;
+          padding-left: 25px;
+          cursor: pointer;
+          width: 80px;
+          .checkmark {
+            height: 15px;
+            width: 15px;
+            background-color: #fff;
+            border: 1px solid #e5e5e5;
+            border-radius: 3px;
+            position: absolute;
+            top: 0;
+            left: 0;
+            &:after {
+              content: "";
+              position: absolute;
+              display: none;
+              left: 4px;
+              top: 0;
+              width: 5px;
+              height: 10px;
+              border: solid red;
+              border-width: 0 3px 3px 0;
+              -webkit-transform: rotate(45deg);
+              transform: rotate(45deg);
+            }
+          }
+          input[type="checkbox"]:checked ~ .checkmark:after {
+            display: block;
+            border-color: red;
+            opacity: 1;
+          }
+        }
+      }
+    }
+    .sidebar-filter-column--price {
+      border-bottom: 1px solid #999;
+      cursor: pointer;
+      padding: 20px;
+      .sidebar-filter-top {
+        display: flex;
+        justify-content: space-between;
+
+        h3 {
+          font-size: 14px;
+          font-weight: 700;
+          color: #000;
+          text-transform: uppercase;
+          margin-bottom: 29px;
+        }
+      }
+      .kid-products-list-group-item {
+        font-size: 13px;
+        line-height: calc(24 / 13);
+        color: #222;
+        font-weight: 600;
+        span {
+          color: #999;
+        }
+      }
+    }
+  }
+
+  .feature-product {
+    margin-top: 30px;
+
+    .feature-product-kids-title {
+      font-size: 14px;
+      font-weight: 700;
+      color: #000;
+      text-transform: uppercase;
+      margin-bottom: 25px;
+    }
+    .slick-dots {
+      position: absolute;
+      bottom: 100%;
+      left: 70%;
+      transform: translateX(-10%);
+      display: flex !important;
+      align-items: center;
+      justify-content: center;
+      gap: 0 15px;
+      margin-top: 10px;
+      li {
+        position: relative;
+        display: inline-block;
+        cursor: pointer;
+      }
+      button {
+        font-size: 0;
+        width: 10px;
+        height: 10px;
+        border-radius: 100rem;
+        background-color: #bbbbbb;
+        border: none;
+        outline: none;
+      }
+      .slick-active button {
+        background-color: #999999;
+      }
+    }
+    .feature-product-list {
+      font-size: 13px;
+      color: #222;
+      font-weight: 600;
+      line-height: calc(24 / 13);
+    }
+  }
+  .custom-cms-block {
+    margin-top: 40px;
+    &-title {
+      font-size: 14px;
+      font-weight: 700;
+      color: #000;
+      text-transform: uppercase;
+      margin-bottom: 20px;
+    }
+    .custom-cms-block-item {
+      border: 1px solid #eaeaea;
+      margin-bottom: 10px;
+      padding: 10px;
+      .custom-cms-block-img {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+      .custom-cms-block-inner {
+        .custom-cms-block-item-title {
+          font-size: 12px;
+          color: #000;
+          text-transform: uppercase;
+          font-weight: 600;
+          margin-bottom: 20px;
+        }
+        .custom-cms-block-item-detail {
+          font-size: 12px;
+          color: #666;
+          line-height: calc(20 / 12);
+          font-weight: 600;
+        }
+      }
+    }
+  }
+  .shop-kids-revelant {
+    margin-top: 40px;
+    position: relative;
+   
+    .shop-kids-revelant-info {
+      background-color: #fff;
+      width: 80%;
+      padding: 15px;
+      position: absolute;
+      left: 66%;
+      bottom: 0;
+      transform: translateX(-85%);
+      line-height: calc(24 / 15);
+      h3 {
+        font-size: 16px;
+        color: #000000;
+        text-transform: uppercase;
+        font-weight: 700;
+      }
+      span {
+        font-size: 16px;
+        color: #ff0000;
+        text-transform: uppercase;
+        font-weight: 700;
+      }
+      .shop-now {
+        border-bottom: 3px solid #999;
+        text-transform: uppercase;
+        color: #000;
+        font-weight: 700;
+        &:hover {
+          text-decoration: none;
+          border-bottom: none;
+          background-color: #000;
+          color: #fff;
+          padding: 5px;
+        }
+      }
+    }
+  }
+  .shop-kids-banner{
+   &-inner{
+     position: relative;
+     .shop-kids-banner-content{
+      position: absolute;
+      top: 66px;
+      left: 51px;
+      text-align: center;
+     
+      .shop-kids-banner-title{
+        span{
+          display: block;
+          &:first-child{
+            color: #000000;
+            font-size: 56px;
+            font-weight: 700;
+          }
+          &:last-child {
+            color: #000000;
+            font-size: 30px;
+            font-weight: 600;
+          }
+        }
+      }
+      .btn-discover-more{
+        
+        min-width: 150px;
+        height: 40px;
+        background-color: #ff3333;
+        text-transform: uppercase;
+        display: inline-block;
+        line-height: 40px;
+        color: #ffffff;
+        font-size: 13px;
+        font-weight: 700;
+        margin-top: 34px;
+        transition: all 0.3s ease-out;
+        border: 1px solid transparent;
+        &:hover{
+          text-decoration: none;
+          color: #ff3333;
+          background-color: #fff;
+
+        }
+      }
+     }
+   }
+  }
+  .product-filter-content{
+    margin-top: 40px;
+    border-top: 2px solid #000;
+    border-left: 1px solid #000;
+    border-right: 1px solid #000;
+    border-bottom: 1px solid #000;
+    margin-bottom: 40px;
+    .product-filter-filter-name{
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 10px;
+      span{
+        font-size: 13px;font-weight: bold;
+        text-transform: uppercase;
+      }
+     
+      
+    }
+    .product-filter-sort-latest{
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 10px;
+      font-size: 13px;
+      color:#666;
+      font-weight: 600;
+    }
+    .product-filter-showing{
+      padding: 10px;
+      font-size: 13px;
+      color:#666;
+      font-weight: 600;
+    }
+    .product-filter-display-layout{
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 10px;
+      button{
+        border: none !important;
+        background-color:transparent !important;
+      }
+    }
+  }
+  .list-product-filter{
+    .bp{
+      border-bottom: 1px solid #eee;
+      padding: 30px 0 30px 0;
+    }
+    margin-bottom: 30px;
+   .product-filter-img-item{
+     position: relative;
+     overflow: hidden;
+     &:hover .product-filter-info-img{
+       bottom: 0;
+     }
+    .product-filter-info-img{
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      position: absolute;
+      bottom: -110px;
+      left: 0;
+      right: 0;
+      padding: 10px;
+      background-color: #222;
+      text-decoration: none;
+      transition: all 0.5s ease;
+      color: #ffffff;
+      font-size: 12px;
+      font-weight: 700;
+      cursor: pointer;
+      
+      button{
+        background-color: transparent;
+        border: none !important;
+        color: #fff;
+        font-size: 20px;
+      }
+
+    }
+
+   }
+   .product-filter-info{
+     text-align: center;
+     margin-top: 45px;
+     line-height: calc(36 /18);
+     .product-filter-item-name{
+       font-size: 24px;
+       font-weight: 700;
+       line-height: calc(24 / 24);
+     }
+     .product-filter-item-price{
+       font-size: 13px;
+       font-weight: 600;
+       .product-filter-item-sale-price{
+         color: #666666;
+       }
+       .product-filter-item-ori-price{
+         color: #000;
+       }
+     }
+     .stars{
+       display: flex;
+       justify-content: center;
+       align-items: center;
+     }
+     .product-filter-item-in-stock{
+       font-size: 14px;
+       color: #000000;line-height: calc(24 /14);
+       font-weight: bold;
+       margin-bottom: 32px;
+     }
+     .product-filter-item-desc{
+       font-size: 14px;
+       color: #666;
+       line-height:calc(24/14);
+       font-weight: 600;
+       margin-bottom: 38px;
+     }
+     .btn-add-cart{
+       max-width: 150px;
+       width: 100%;
+       height: auto;
+       padding: 7px;
+       background-color: #fff;
+       color: #000;
+       font-weight: bold;
+       text-transform: uppercase;
+       font-size: 12px;
+       cursor: pointer;
+       &:hover{
+         color: #fff;
+         background-color: #000;
+       }
+     }
+   }
+ 
+  }
+  .slick-dots {
+    
+    li {
+      margin: 0 5px;
+      a {
+        text-decoration: unset;
+        color: #999;
+        font-size: 12px;
+        font-weight: bold;
+      }
+      &.slick-active a{
+        border-top: 2px solid #111;
+        color: #000;
+      }
+    }
+  }
+  .slick-arrow {
+    position: absolute;
+    bottom:0;
+    transform: translateY(40%);
+    border: none;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 14px;
+    line-height: 1;
+    z-index: 5;
+    transition: all 0.2s linear;
+    color: #000;
+    background-color: transparent;
+    gap:10px;
+    &:hover {
+      /* background-color: #2cccff; */
+      background-color:#eee;
+    }
+    &:focus{
+      outline: none;
+    }
+    
+  }
+  
+  ul li::marker {
+    list-style-type: none;
+    padding-left: 0px;
+    color: #fff;
+    display: none !important;
+  }
+  .slick-prev {
+    left: 0;
+    cursor: pointer;
+   
+  }
+  .slick-next {
+    right: 0;
+    cursor: pointer;
+   
+  }
+}
+@media screen and (max-width:1200px) {
+  .shop-kids-banner-top {
+    margin-bottom: 80px;
+    .shop-kids-banner-content-top {
+      position: relative;
+      .shop-kids-banner-title-top {
+        position: absolute;
+        right: 20%;
+        top: 60%;
+        transform: translateY(-50%);
+        width: 100%;
+        height: auto;
+        max-width: 265px;
+        max-height: auto;
+        text-align: right;
+       
+        h1 {
+          font-size: 50px;
+          margin-bottom: 20px;
+        }
+        p {
+          font-size: 14px;
+          color: #fff;
+          line-height: calc(24 / 14);
+        }
+      }
+    }
+  }
+
+  .list-product-filter{
+    .product-filter-img-item{
+    .product-filter-img{
+      img{
+        width: 95%;
+      }
+    }
+    }
+  }
+  .shop-kids-revelant{
+    .shop-kids-revelant-img{
+      img{
+        width:90%;
+      }
+    }
+  }
+}
+@media screen and(max-width:976px) {
+  .shop-kids-banner-top {
+    margin-bottom: 80px;
+    .shop-kids-banner-content-top {
+      position: relative;
+      .shop-kids-banner-title-top {
+   display: none;
+      }
+    }
+  }
+  .list-product-filter{
+    .product-filter-img-item{
+    .product-filter-img{
+      img{
+        width: 90%;
+      }
+    }
+    }
+  }
+  .shop-kids-revelant {
+  
+   
+    .shop-kids-revelant-info {
+      width: 100% !important;
+      left: 100% !important;
+   
+    
+      
+     
+    }
+  }
+
+  
+}
+@media screen and(max-width:767px) {
+  .feature-product {
+    margin-top: 30px;
+
+    .feature-product-kids-title {
+      font-size: 14px;
+      font-weight: 700;
+      color: #000;
+      text-transform: uppercase;
+      margin-bottom: 25px;
+      text-align: center;
+    }
+   
+ 
+  }
+  .custom-cms-block{
+    &-title{
+      text-align: center;
+    }
+    .custom-cms-block-item{
+      text-align: center;
+    }
+  }
+ 
+  .shop-kids-revelant{
+    left:25%;
+    .shop-kids-revelant-img{
+      img{
+        width:50%;
+      }
+    }
+  }
+  .product-filter-categories{
+    background: url(https://i.gifer.com/2eSd.gif);
+  }
+.sidebar-filter{
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap:0 40px;
+ 
+ 
+  border:none !important;
+
+}
+  
+}

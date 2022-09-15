@@ -1,0 +1,203 @@
+.blog-detail-title {
+  color: #000000;
+  font-size: 60px;
+  font-weight: 600;
+  text-transform: capitalize;
+}
+.posted-by {
+  margin: 36px 0;
+  .author {
+    color: #aaaaaa;
+    span {
+      color: #000000;
+      font-size: 16px;
+      font-weight: 700;
+    }
+  }
+  .posted-on {
+    color: #aaaaaa;
+    font-size: 16px;
+    font-weight: 500;
+    margin: 0 10px;
+    padding: 0 8px;
+    border-left: 1px solid #aaaaaa;
+    border-right: 1px solid #aaaaaa;
+  }
+}
+article {
+  .article-title {
+    color: #000000;
+    font-size: 44px;
+    font-weight: 600;
+    margin: 54px 0 40px 0;
+  }
+  .article-sub-title {
+    color: #000000;
+    font-size: 44px;
+    font-weight: 600;
+    margin: 54px 0 40px 0;
+  }
+  .article-desc {
+    color: #666666;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 1.8;
+  }
+  ol {
+    color: #666666;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 1.8;
+    padding: 39px 0 39px 41px;
+    list-style: initial;
+  }
+  .question-wrap {
+    .double-quotation-mark {
+      color: #999999;
+      font-size: 88px;
+      font-weight: 600;
+      line-height: 0;
+      display: inline-block;
+    }
+  }
+  .blog-detail-tags {
+    margin: 35px 0;
+    .tags-text {
+      color: #666666;
+      font-size: 16px;
+      font-weight: 600;
+    }
+    .tag {
+      color: #000000;
+      font-size: 16px;
+      font-weight: 600;
+    }
+  }
+  .social-media {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 24px 0;
+    border-top: 1px solid #dddddd;
+    border-bottom: 1px solid #dddddd;
+    .twitter-share-button {
+      padding: 6px;
+      background-color: #eeeeee;
+      color: #000000;
+      border-radius: 4px;
+      border: 1px solid #999999;
+    }
+  }
+  .blog-detail-pagination {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    .blog-detail-pagination-btn {
+      text-transform: uppercase;
+      padding: 21px 0 16px 0;
+      display: inline-block;
+      color: #999999;
+      font-size: 14px;
+      font-weight: 600;
+      &:hover {
+        color: #0056b3;
+      }
+    }
+  }
+}
+.relevant-blog {
+  margin-top: 76px;
+  padding-bottom: 70px;
+  border-bottom: 1px solid #dddddd;
+  .relevant-blog-title {
+    border-top: 5px solid #dddddd !important;
+    color: #000000;
+    font-size: 26px;
+    font-weight: 700;
+    padding: 40px 0;
+  }
+}
+.page-blog-hero-wrap-single {
+  .page-blog-hero-inner {
+    //background: linear-gradient(to right, #fdfbfb, #ebedee 70%);
+    .page-blog-hero-title {
+      background: linear-gradient(to right, #fcfc1f 0%, #6b09e4 100%);
+      background-clip: text;
+      -webkit-background-clip: text;
+      color: transparent;
+      font-size: 60px;
+      font-weight: 700;
+      padding-top: 81px;
+    }
+    .hero-tabs-blog {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin: 49px 0 86px 0;
+      #hero-tabs-blog {
+        gap: 35px;
+      }
+      .hero-blog-nav-link {
+        text-transform: uppercase;
+        text-decoration: none;
+        color: #000;
+        font-size: 14px;
+        font-weight: 700;
+        transition: all 0.2s;
+        border-bottom: 2px solid transparent;
+
+        &:hover {
+          color: #000;
+          border-color: #000;
+        }
+        &.active {
+          color: #000;
+          border-bottom: 2px solid #000;
+        }
+      }
+    }
+    .tab-content-hero-blog {
+      .carousel-hero-blog {
+        height: 585px;
+        .carousel-inner {
+          max-width: calc(100% - 370px);
+          margin: 0 auto;
+          .carousel-caption {
+            position: unset;
+            width: 96%;
+            background-color: #ffffff;
+            transform: translateY(-125px);
+            margin: 0 auto;
+            .hero-slider-subtitle {
+              color: #000000;
+              font-size: 16px;
+              font-weight: 400;
+              text-transform: uppercase;
+              display: inline-block;
+              padding: 16px 0 21px 0;
+            }
+            .hero-slider-title {
+              color: #000000;
+              font-size: 36px;
+              font-weight: 700;
+              text-transform: capitalize;
+              line-height: 50px;
+              padding: 0 20px 21px 0;
+            }
+          }
+        }
+
+        .carousel-indicators {
+          bottom: -10px;
+          & li {
+            height: 5px;
+            background-color: gray;
+            &.active {
+              background: #000;
+            }
+          }
+        }
+      }
+    }
+  }
+}
